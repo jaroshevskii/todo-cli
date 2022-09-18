@@ -1,2 +1,13 @@
-# Build folder
-build/*
+# Swift Package Manager
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
+DerivedData/
+.swiftpm/config/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+
+# Visual Studio Code
+.vscode/
