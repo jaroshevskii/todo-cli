@@ -1,4 +1,4 @@
-enum Color: String {
+enum Color {
     static let reset = "\u{001B}[0m"
     static let black = "\u{001B}[0;30m"
     static let red = "\u{001B}[0;31m"
@@ -18,7 +18,7 @@ func printLogo() {
         \(logoColorMain)/_  __/__  ___/ /__  \(logoColorSecondary)/ ___/ /  /  _/
         \(logoColorMain) / / / _ \\/ _  / _ \\\(logoColorSecondary)/ /__/ /___/ /
         \(logoColorMain)/_/  \\___/\\_,_/\\___/\(logoColorSecondary)\\___/____/___/
-    \(Color.reset.rawValue)
+    \(Color.reset)
     """)
 }
 
