@@ -1,3 +1,3 @@
 # Todo CLI
 
-A description of this package.
+Create and manage tasks list from the command line.
